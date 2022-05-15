@@ -1,0 +1,106 @@
+@media only screen and (max-width: 700px){
+    h1{
+        font-size: 35px;
+    }
+    .header{
+
+        height: 150%;
+        margin-top: 120px;
+    }
+    .header .row{
+        flex-direction: column;
+    }
+    .header .col-1{
+        padding: 20px;
+    }
+    .header .col-2 img{
+        max-width: 90%;
+        
+    }
+    .grid-wrapper{
+        grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    }
+    .grid-box{
+        padding: 10px;
+    }
+    .skills{
+        height: 100%;
+    }
+    .portfolio .title .ctn-title{
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .contact .container{
+        padding: 10px;
+    }
+    .contact .container h3{
+        font-size: 17px;
+    }
+    .contact .quick-links{
+        flex-direction: column;
+    }
+    .contact .quick-links img{
+        width: 50px;
+    }
+    .contact .quick-links ul li{
+        margin: 0px 5px;
+    }
+    .copyright p{
+        font-size: 12px;
+    }
+
+    /* Navbar */
+
+    .toggle-btn i{
+        display: block;
+    }
+    .brand img{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        width: 20px;
+
+    }
+    .navbar{
+        background:  #E9F9FF;
+        height: 100vh;
+        flex-direction: column;
+        display: none;
+
+    }
+    .mobile-nav{
+
+        display: flex;
+    }
+
+    .nav-list ul{
+        flex-direction: column;
+
+    }
+    .nav-list ul li{
+        margin-top: 30px;
+    }
+
+    /* JavaScript mobil */
+
+    .scripttest{
+        padding-left: 0px;
+        padding-right:  0px; 
+        
+        
+    }
+    .scripttest h1{
+        font-size: 30px;
+        text-align: center;
+        
+    }
+
+
+    .scripttest .scriptcontainer {
+        
+        text-align: center;
+        
+        
+    }
+}
